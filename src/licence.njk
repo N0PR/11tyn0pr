@@ -21,7 +21,22 @@ layout: 'base.njk'
     <article class="contact">
         <h3 class="getTitle">Contact us</h3>
         Please email us at <a href="mailto:n0prmacon@gmail.com">webmaster</a> with questions, suggestions, or to report broken links.
-        <br><br>
+        <br>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          <br>
         or via snail mail
         <address>
         Macon County Amateur Radio Club<br>
