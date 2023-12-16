@@ -1,0 +1,25 @@
+---
+title: "Special Events"
+layout: "base.njk"
+---
+
+<div>
+    <h1>Special Events</h1>
+    <ul class="eventList">
+
+    {%- for post in collections.post -%}
+        <li>
+            <article class="eventItem">
+               <a href="{{post.url}}"> <h3>
+                    {{post.data.title}}
+                </h3></a>
+                {{post.data.description}}
+            </article>
+        </li>
+
+    {%- endfor -%}
+
+
+    </ul>
+
+</div>
