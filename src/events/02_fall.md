@@ -1,6 +1,7 @@
 ---
 title : "2023 fall picnic"
 description : "There was a nice turn-out of members and guests at the Macon Count Fall Picnic at Long Branch Lake."
+desc: "MCARC 2023 fall picnic"
 ---
 There was a nice turn-out of members and guests at the Macon Count Fall Picnic at Long Branch Lake. Chris Clark, KF0GUS arrived early and set-up his operating station as a POTA station. 
 Larry Ballew, AB0HP, did an Excellent Job grilling the burgers and brats. There was plenty of food and good humor shared at the picnic.

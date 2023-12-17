@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(255, 2%, 37%);
+    background-color: hsl(240, 37%, 75%);
 }
 /* header and navbar */
 .flex {
@@ -16,13 +16,15 @@ body{
     height: 2rem;
     align-items: center;
 }
-
+[aria-current="page"]{
+    background-color: darkblue;
+}
 .navList{
     list-style: none;
     display: flex;
 }
-.navItem{
-    padding: 0 .5rem;
+.navLink{
+    padding: .5rem .5rem;
     margin-inline-end: .5rem;
 }
 .navItem a{
@@ -121,6 +123,13 @@ margin: 1rem 0;
 }
 
 /* licence/contact */
+#submit{
+    border: none;
+    background-color: hsl(240, 93%, 22%);
+    color: hsl(240, 37%, 75%);
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
 .licence{
     display: grid;
     grid-template-columns: 25dvw 1fr 25dvw;
