@@ -3,11 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: hsl(255, 2%, 37%);
+}
+/* header and navbar */
 .flex {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    background-color: hsl(244, 86%, 46%);
+    color: hsl(244 86% 88%);
+    height: 2rem;
+    align-items: center;
 }
 
 .navList{
@@ -18,12 +25,23 @@
     padding: 0 .5rem;
     margin-inline-end: .5rem;
 }
-
+.navItem a{
+    text-decoration: none;
+}
+.navItem a:link{
+    color: hsl(244 86% 88%);
+}
+.navItem a:visited{
+    color: hsl(244 86% 88%);
+}
 .head{
     text-align: center;
+    background-color: hsl(244 86% 44%);
+    padding-bottom: 3rem;
+    color:hsl(244 86% 88%);;
 }
 .container{
-    min-height: 80dvh;
+    min-height: 70dvh;
     max-width: 90dvw;
     margin: auto;
 }
