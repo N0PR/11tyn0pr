@@ -1,0 +1,27 @@
+---
+title: "Club Meetings"
+layout: "base.njk"
+desc: "N0PR Club Meetings"
+meetings: "true"
+---
+
+<div>
+    <h1>Club Meetings</h1>
+    <ul class="eventList">
+
+    {%- for meeting in collections.meeting -%}
+        <li>
+            <article class="eventItem">
+               <a href="{{meeting.url}}"> <h3>
+                    {{meeting.data.title}}
+                </h3></a>
+                {{meeting.data.description}}
+            </article>
+        </li>
+
+    {%- endfor -%}
+
+
+    </ul>
+
+</div>

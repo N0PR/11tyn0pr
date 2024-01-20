@@ -179,4 +179,26 @@ form p {
     grid-template-columns: 1fr 1fr;
 }
 
-/* media queries */
+/* club meetings */
+
+.meetingTitle {
+    text-align: center;
+    font-size: 2.75rem;
+}
+.meetingContent {
+margin-top: 1.25rem;
+}
+.meetingContent p {
+    margin-top: 1rem;
+}
+.meetingContent h2 {
+    margin-top: 1rem;
+}
+.meetingContent h3 {
+    margin-top: 1rem;
+}
+
+.meetingContent ul {
+    margin-top: .75rem;
+    font-weight: bold;
+}
