@@ -13,8 +13,7 @@ body{
     align-items: flex-end;
     background-color: hsl(244, 86%, 46%);
     color: hsl(244 86% 88%);
-    height: 2rem;
-    align-items: center;
+    padding: 1rem 0;
 }
 [aria-current="page"]{
     background-color: darkblue;
@@ -22,6 +21,8 @@ body{
 .navList{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
 }
 .navLink{
     padding: .5rem .5rem;
@@ -40,7 +41,8 @@ body{
     text-align: center;
     background-color: hsl(244 86% 44%);
     padding-bottom: 3rem;
-    color:hsl(244 86% 88%);;
+    color:hsl(244 86% 88%);
+    padding-top: 1rem;
 }
 .container{
     min-height: 70dvh;
@@ -48,7 +50,14 @@ body{
     margin: auto;
 }
 footer{
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     margin-top: 1rem;
+    background-color: hsl(244, 86%, 46%);
+    color: hsl(244 86% 88%);
+    min-height: 5dvh;
 }
 
 /* events */
@@ -102,7 +111,7 @@ footer{
     text-align: center;
     background-color: green;
     color: white;
-    border-radius: 99%;
+    border-radius: 99999dvh;
     width: 50%;
 }
 .status{
@@ -178,6 +187,13 @@ form p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+textarea {
+    width: 300px;
+    height: 150px;
+  }
+.form {
+    display: grid;
+}
 
 /* club meetings */
 
@@ -201,4 +217,33 @@ margin-top: 1.25rem;
 .meetingContent ul {
     margin-top: .75rem;
     font-weight: bold;
+}
+
+/* media queries */
+
+@media screen and (max-width: 900px) {
+    .grid {
+        display: flex;
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .status {
+        order: 1;
+    }
+    .licence{
+        display: flex;
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .dates {
+        order: 1;
+    }
+    .officers{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  
+    
+    
+
 }
