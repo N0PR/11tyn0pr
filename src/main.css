@@ -70,9 +70,8 @@ body{
 .head{
     text-align: center;
     background-color: var(--headerFooterColor);
-    padding-bottom: 3rem;
+    padding-bottom: .5rem;
     color: var(--lightText);
-    padding-top: 1rem;
 }
 .container{
     min-height: 70dvh;
