@@ -22,6 +22,7 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+/public/
 
 ### VS Code ###
 .vscode/
@@ -32,6 +33,8 @@ bin/
 # Compiled output
 *.class
 out/*
+public/*
+
 
 # IntelliJ
 .idea/*
