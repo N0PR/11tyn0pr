@@ -19,6 +19,7 @@ body{
     flex-grow: 1;
     color: hsl(244 86% 88%);
     text-decoration: none;
+    cursor: auto;
 }
 .flex {
     display: flex;
