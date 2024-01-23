@@ -159,6 +159,7 @@ margin: 1rem 0;
 .solar{
     display: block;
     margin: 2rem auto;
+    max-width: 80dvw;
 }
 
 /* licence/contact */
