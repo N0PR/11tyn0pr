@@ -1,10 +1,16 @@
+:root {
+    --bodyBackground: hsl(240, 37%, 75%);
+    --lightText:  hsl(244 86% 88%);
+    --headerFooterColor:  hsl(244, 86%, 46%);
+    --pageSelectColor: darkblue;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(240, 37%, 75%);
+    background-color: var(--bodyBackground);
 }
 /* header and navbar */
 .antenna {
@@ -17,18 +23,16 @@ body{
     font-weight: bold;
     align-self: center;
     flex-grow: 1;
-    color: hsl(244 86% 88%);
-    text-decoration: none;
-    cursor: auto;
+    color: var(--lightText);
 }
 .flex {
     display: flex;
-    background-color: hsl(244, 86%, 46%);
-    color: hsl(244 86% 88%);
+    background-color: var(--headerFooterColor);
+    color: var(--lightText);
     padding: 1rem 0;
 }
 [aria-current="page"]{
-    background-color: darkblue;
+    background-color: var(--pageSelectColor);
 }
 .navList{
     list-style: none;
@@ -45,16 +49,16 @@ body{
     text-decoration: none;
 }
 .navItem a:link{
-    color: hsl(244 86% 88%);
+    color: var(--lightText);
 }
 .navItem a:visited{
-    color: hsl(244 86% 88%);
+    color: var(--lightText);
 }
 .head{
     text-align: center;
-    background-color: hsl(244 86% 44%);
+    background-color: var(--headerFooterColor);
     padding-bottom: 3rem;
-    color:hsl(244 86% 88%);
+    color: var(--lightText);
     padding-top: 1rem;
 }
 .container{
@@ -68,8 +72,8 @@ footer{
     align-items: flex-end;
     justify-content: center;
     margin-top: 1rem;
-    background-color: hsl(244, 86%, 46%);
-    color: hsl(244 86% 88%);
+    background-color: var(--headerFooterColor);
+    color: var(--lightText);
     min-height: 5dvh;
 }
 
@@ -123,7 +127,7 @@ footer{
     margin: auto;
     text-align: center;
     background-color: green;
-    color: white;
+    color: var(--lightText);
     border-radius: 99999dvh;
     width: 50%;
 }
@@ -147,10 +151,11 @@ margin: 1rem 0;
 /* licence/contact */
 #submit{
     border: none;
-    background-color: hsl(240, 93%, 22%);
-    color: hsl(240, 37%, 75%);
+    background-color: var(--headerFooterColor);
+    color: var(--lightText);
     padding: .5rem 1.5rem;
     cursor: pointer;
+    box-shadow: 5px 5px 15px var(--pageSelectColor);
 }
 .licence{
     display: grid;
