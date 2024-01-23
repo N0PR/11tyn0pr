@@ -15,7 +15,10 @@ body{
 /* header and navbar */
 .headFlex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.name {
+    margin: auto;
 }
 .ares{
     max-height: 100px;
