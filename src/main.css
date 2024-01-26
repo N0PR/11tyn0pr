@@ -225,6 +225,9 @@ textarea {
 .form {
     display: grid;
 }
+.exam{
+    font-size: .85rem;
+}
 
 /* club meetings */
 
