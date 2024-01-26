@@ -28,7 +28,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/meetings/</loc>
+  <loc>https://n0pr.org/newsletters/</loc>
   <lastmod>2024-01-26T16:31:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -47,11 +47,7 @@
   <lastmod>2024-01-26T16:31:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://n0pr.org/meetings/01_jan2024/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 
 
 </urlset>
