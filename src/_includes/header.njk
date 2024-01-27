@@ -1,5 +1,5 @@
 <header class="">
-    <nav class="flex">
+    <nav class=" nav" id="nav">
         <img class="antenna" src="/img/logo/antenna.png">
         <div class="logo">N0PR</div>
         <ul class="navList">
@@ -19,6 +19,9 @@
                 <a class="navLink" {% if meetings %}aria-current="page" {%endif%} href="/newsletters">Club Newsletters</a>
             </li>
         </ul>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+            <i class="fa-solid fa-bars"></i>
+          </a>
     </nav>
     <div class="head">
         <div class="headFlex">

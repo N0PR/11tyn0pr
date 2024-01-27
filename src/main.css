@@ -28,8 +28,10 @@ body{
 }
 .antenna {
     max-width: 50px;
+    max-height: 50px;
     padding-right: 1rem;
-    margin-left: 1rem
+    margin-left: 1rem;
+    align-self: center;
 }
 .logo {
     font-size: 1.75rem;
@@ -38,7 +40,7 @@ body{
     flex-grow: 1;
     color: var(--lightText);
 }
-.flex {
+.nav {
     display: flex;
     background-color: var(--headerFooterColor);
     color: var(--lightText);
@@ -88,6 +90,13 @@ footer{
     color: var(--lightText);
     min-height: 5dvh;
 }
+.icon{
+    display: none;
+    font-size: 1.5rem;
+    color: var(--lightText);
+    margin-right: .5rem;
+}
+
 
 /* events */
 .eventList{
@@ -259,7 +268,25 @@ font-size: 1.5rem;
         display: grid;
         grid-template-columns: auto;
     }
-  
+    .nav ul {display: none;}
+    .icon {
+      /* float: right; */
+      display: block;
+    }
+    .nav.responsive {
+        position: relative;
+    }
+    .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive ul {
+    float: none;
+    display: flex;
+    flex-flow: column;
+  }
+    
     
     
 
