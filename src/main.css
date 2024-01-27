@@ -245,6 +245,22 @@ textarea {
     font-size: 1.5rem;
 }
 
+/* Christmas Pictures*/
+.christmas{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.christmas>p{
+    margin: .5rem;
+    padding: .5rem;
+    max-width: 25dvw;
+}
+.christmas img{
+    margin: 0 .5rem;
+}
+
 /* media queries */
 
 @media screen and (max-width: 900px) {
