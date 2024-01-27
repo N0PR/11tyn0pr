@@ -156,7 +156,7 @@ footer{
     text-align: center;
 }
 .status p{
-margin: 1rem 0;
+    margin: 1rem 0;
 }
 .meeting{
     text-align: center;
@@ -230,7 +230,7 @@ form p {
 textarea {
     width: 300px;
     height: 150px;
-  }
+}
 .form {
     display: grid;
 }
@@ -241,8 +241,8 @@ textarea {
 /* club Newsletters */
 
 .newsletters{
-margin: 2rem 1rem 0 0;
-font-size: 1.5rem;
+    margin: 2rem 1rem 0 0;
+    font-size: 1.5rem;
 }
 
 /* media queries */
@@ -268,23 +268,19 @@ font-size: 1.5rem;
         display: grid;
         grid-template-columns: auto;
     }
-    .nav ul {display: none;}
+    .nav ul {
+        display: none;
+    }
     .icon {
-      /* float: right; */
-      display: block;
+        display: block;
     }
     .nav.responsive {
         position: relative;
     }
-    .nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive ul {
-    float: none;
-    display: flex;
-    flex-flow: column;
+    .nav.responsive ul {
+        float: none;
+        display: flex;
+        flex-flow: column;
   }
     
     
