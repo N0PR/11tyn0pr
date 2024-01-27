@@ -253,12 +253,8 @@ textarea {
     justify-content: space-around;
 }
 .christmas>p{
-    margin: .5rem;
-    padding: .5rem;
-    max-width: 25dvw;
-}
-.christmas img{
-    margin: 0 .5rem;
+    width: 25dvw;
+    margin: .5rem 0 .5rem 0;
 }
 
 /* media queries */
