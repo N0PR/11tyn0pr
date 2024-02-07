@@ -240,7 +240,10 @@ textarea {
 .exam{
     font-size: .85rem;
 }
-
+.facebook {
+    text-align: center;
+    font-size: 1.25rem;
+}
 /* club Newsletters */
 
 .newsletters{
