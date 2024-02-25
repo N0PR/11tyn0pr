@@ -1,19 +1,25 @@
 ---
 title: "Club Newsletters"
 layout: "base.njk"
-desc: "N0PR Club Newsletters"
+desc: "Macon County ARC Newsletters"
 meetings: "true"
 ---
 
 <div>
-    <h1>Club Newsletters</h1>
-    <ul class="newsletters">
+    <h1>Newsletters</h1>
+    <ul class="eventList">
+
+    {%- for post in collections.newsletters -%}
         <li>
-            January 2024 Newsletter availiable <a href="/newsletters/Jan2024.zip">HERE</a>.    
+            <article class="eventItem">
+               <a href="{{post.url}}"> <h3>
+                    {{post.data.title}}
+                </h3></a>
+                {{post.data.description}}
+            </article>
         </li>
-        <li>
-            Febuary 2024 Newsletter availiable <a href="/newsletters/Feb2024.zip">HERE</a>.    
-        </li>
+
+    {%- endfor -%}
 
 
     </ul>
