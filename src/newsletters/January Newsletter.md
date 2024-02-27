@@ -6,9 +6,10 @@ desc: "January pdf"
 
 <div class="newsletter">
 
-<embed src= 
+<iframe src= 
 "/newsletters/jan2024.pdf" 
                width="800"
                   height="500"> 
+                  </iframe>
 
 </div>
