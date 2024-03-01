@@ -172,6 +172,10 @@ footer{
 .note{
     background-color: hsla(0, 100%, 50%, 0.5);
 }
+.pressing p{
+    margin: .75rem 0;
+    font-size: 1.15rem;
+}
 
 /* licence/contact */
 #submit{
@@ -203,6 +207,9 @@ footer{
 }
 form p {
     margin-top: 1.5rem;
+}
+.get p {
+    margin: .5rem;
 }
 
 /* about us */
