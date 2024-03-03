@@ -1,57 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://n0pr.org/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://n0pr.org/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/licence/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://n0pr.org/licence/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/about/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://n0pr.org/about/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/events/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://n0pr.org/events/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/newsletters/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://n0pr.org/newsletters/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/events/01_2023fd/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://n0pr.org/events/01_2023fd/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/events/02_2023fall/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://n0pr.org/events/02_2023fall/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/events/99_dent/</loc>
-  <lastmod>2024-01-26T16:31:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://n0pr.org/events/03_2023christmas/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://n0pr.org/events/03_2023christmas/</loc>
-  <lastmod>2024-01-27T16:31:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://n0pr.org/events/99_dent/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.64</priority>
 </url>
-
-
+<url>
+<loc>https://n0pr.org/newsletters/febuary%20newsletter/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://n0pr.org/newsletters/january%20newsletter/</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://n0pr.org/newsletters/Feb2024.pdf</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://n0pr.org/newsletters/jan2024.pdf</loc>
+<lastmod>2024-03-03T13:02:19+00:00</lastmod>
+<priority>0.51</priority>
+</url>
 </urlset>

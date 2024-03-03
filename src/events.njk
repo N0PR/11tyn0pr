@@ -9,7 +9,7 @@ event: "true"
     <h1>Special Events</h1>
     <ul class="eventList">
 
-    {%- for post in collections.post -%}
+    {%- for post in collections.post | reverse -%}
         <li>
             <article class="eventItem">
                <a href="{{post.url}}"> <h3>
