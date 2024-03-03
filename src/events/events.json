@@ -1,4 +1,5 @@
 {
     "layout": "event.njk",
-    "tags": "post"
+    "tags": "post",
+    "event": "true"
 }

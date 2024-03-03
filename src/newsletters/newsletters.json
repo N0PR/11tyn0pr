@@ -1,4 +1,5 @@
 {
     "layout": "event.njk",
-    "tags": "newsletters"
+    "tags": "newsletters",
+    "meetings": "true"
 }
