@@ -129,6 +129,16 @@ footer{
     max-width: 20dvw;
     margin-right: 2rem;
 }
+.Pota{
+      align-items: center;
+}
+.Pota iframe{
+    width: 715px;
+    height: 1250px;
+}
+.Pota p{
+    text-align: center;
+}
 
 /* home */
 
