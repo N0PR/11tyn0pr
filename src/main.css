@@ -189,6 +189,10 @@ footer{
     margin: .75rem 0;
     font-size: 1.15rem;
 }
+.skywarn{
+    text-align: center;
+    max-width: 33dvw;
+}
 
 /* licence/contact */
 #submit{
