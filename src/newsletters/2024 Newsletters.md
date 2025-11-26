@@ -1,7 +1,7 @@
 ---
-title: "2024 Newsletters"
-description: "2024 Newsletters Archive"
-desc: "2024 Newsletters zip"
+title: "Newsletters Archive"
+description: "Newsletters Archive"
+desc: " Newsletters Achive"
 ---
 
 <div class="newsletter">
