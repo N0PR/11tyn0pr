@@ -7,7 +7,7 @@ desc: "December pdf"
 <div class="newsletter">
 
 <iframe src= 
-"/newsletters/25_12_Newsletter.pdf" 
+"/newsletters/DEC2025Newsletter.pdf" 
                width="800"
                   height="500"> 
                   </iframe>
