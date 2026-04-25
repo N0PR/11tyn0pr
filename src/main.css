@@ -278,7 +278,15 @@ textarea {
     display: flex;
     justify-content: center;
 }
-
+.archive {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: larger;
+}
 /* Christmas Pictures*/
 .christmas{
     display: flex;
