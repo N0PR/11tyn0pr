@@ -278,6 +278,11 @@ textarea {
     display: flex;
     justify-content: center;
 }
+.newsletter2{
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    box-shadow: 5px 5px 15px var(--pageSelectColor);
+}
 .archive {
     display: flex;
     flex-flow: column wrap;
